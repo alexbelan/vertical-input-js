@@ -1,0 +1,15 @@
+.letter {
+    opacity: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: rgb(103, 149, 247);
+    width: 70px;
+    margin: auto;
+}
+
+.underline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    width: 70px;
+    margin: auto;
+}
