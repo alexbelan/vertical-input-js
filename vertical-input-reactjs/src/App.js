@@ -12,7 +12,7 @@ function App() {
         setLetters(prev => {
           return [
             ...prev,
-            e.key
+            e.key.toUpperCase()
           ]
         })
       }
@@ -24,15 +24,6 @@ function App() {
       document.removeEventListener('keypress', onKeypress);
     };
   }, []);
-
-  // useEffect (() => {
-  //   anime({
-  //     targets: '.letter',
-  //     opacity: 1,
-  //     duration: 3000,
-  //     easing: 'linear',
-  //   });
-  // }, [letters])
 
   const HTMLLetters = letters.map((lettler) => {
               return <div className="letter">{lettler}</div>

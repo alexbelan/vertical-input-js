@@ -7,6 +7,7 @@ document.addEventListener('keypress', (e) => {
             targets: '.letter',
             duration: 3000,
             opacity: 1,
-          });
+            easing: 'linear',
+        });
     }
 })
